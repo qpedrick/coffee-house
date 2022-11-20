@@ -1,3 +1,59 @@
+body {
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+nav {
+    width: 50%;
+
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+main {
+
+}
+
+.our-shop {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.our-shop-title {
+    flex: 100%
+}
+
+.our-shop-desc {
+    flex: 40%;
+    align-items: center;
+    margin: 20px;
+}
+
+.our-shop-image {
+    flex: 40%;
+    align-items: center;
+    margin: 20px;
+    height: 20vh;
+    color: black;
+}
+
 h1 {
     font-family:'Courier New', Courier, monospace;
 }
