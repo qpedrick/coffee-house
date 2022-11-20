@@ -42,9 +42,11 @@ nav > ul {
 
 } */
 
+/*?    Our Shop Section    */
+
 .our-shop {
     width: 80%;
-    margin: auto;
+    margin: 0 auto 10vh auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,27 +54,117 @@ nav > ul {
 }
 
 .our-shop-title {
-    flex: 100%
-}
-
-@media screen and (min-width: 500px) {
-    .our-shop-desc {
-        width: 50%;
-    }
+    flex: 100%;
+    font-size: 4vh;
 }
 
 .our-shop-desc {
-    max-width: 80%;
+    width: 50%;
     text-align: justify;
+    text-justify: inter-word;
+    font-size: 3vh;
     margin: auto;
 }
 
 .our-shop-image {
     align-items: center;
-    max-height: 300px;
-    max-width: 80vw;
-    margin: 20px;
+    max-height: 400px;
+    width: 40%;
+    margin: 5vh auto;
     color: black;
     border-radius: 5%;
 }
 
+@media screen and (max-width: 480px) {
+    .our-shop-desc, .our-shop-image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*?    What We Serve Section   */
+
+.what-we-serve {
+    max-width: 80vw;
+    margin: -5vh auto 0 auto;
+    align-items: center;
+}
+
+.what-we-serve-title {
+    font-size: 4vh;
+    text-align: right;
+}
+
+.drinks-served {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.coffee-container, .espresso-container, .latte-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.coffee-title, .espresso-title, .latte-title {
+    font-size: 5vh;
+    text-align: left;
+    width: 100%;
+}
+
+.coffee-list, .espresso-drinks, .latte-flavors {
+    font-size: 2.5vh;
+    text-align: center;
+    width: 40%;
+    list-style-type: none;
+    font-style: oblique;
+    font-size: 2.5vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: space-around;
+
+}
+
+.coffee-img, .espresso-img {
+    width: 40%;
+    border-radius: 5%;
+}
+
+.latte-img {
+    width: 40%;
+    max-height: 480px;
+    object-fit: cover;
+    border-radius: 5%
+}
+
+@media screen and (max-width: 480px) {
+    .coffee-list, .espresso-drinks, .latte-flavors {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    .coffee-img, .espresso-img {
+        width: 100%;
+    }
+    .latte-img {
+        width: 100%;
+        max-height: 170px;
+        object-fit: cover;
+        object-position: 0 46%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .coffee-img, .espresso-img, .latte-img {
+    width: 100 vw;
+    margin: auto;
+    }
+}
