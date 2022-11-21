@@ -75,7 +75,7 @@ nav > ul {
 
 /** Can add after line to all sections or alternate w leading line */
 
-.our-shop-title::after {
+/* .our-shop-title::after {
     content: "";
     top:15%;
     width: 100%;
@@ -90,7 +90,7 @@ nav > ul {
     .our-shop-title::after {
         max-width: 60%;
     }
-}
+} */
 
 .our-shop-desc {
     width: 50%;
