@@ -88,7 +88,7 @@ nav > ul {
 
 @media (max-width: 480px) {
     .our-shop-title::after {
-        width: 60%;
+        max-width: 60%;
     }
 }
 
