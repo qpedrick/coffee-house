@@ -208,7 +208,7 @@ nav > ul {
     font-size: 2.5vh;
 }
 
-@media (width >= 480px) {
+@media (width > 480px) {
     .history-of-coffee, .geography-of-coffee, .types-of-coffee {
         display: inline-flex;
         flex-direction: column;
@@ -230,7 +230,7 @@ nav > ul {
     background-color: burlywood;
 }
 
-@media (width >= 480px) {
+@media (width > 480px) {
     .our-store, .contact-list {
         display: inline-flex;
         flex-direction: column;
